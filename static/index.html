@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valheim Server Control Panel</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="panel">
+        <h2>مدیریت سرور Valheim</h2>
+        <div id="live-badge" class="badge">در حال بررسی وضعیت...</div>
+        
+        <button class="btn-start" onclick="controlServer('start')">روشن کردن سرور</button>
+        <button class="btn-stop" onclick="controlServer('stop')">خاموش کردن سرور</button>
+        
+        <div id="status-msg">آماده دریافت فرمان</div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
